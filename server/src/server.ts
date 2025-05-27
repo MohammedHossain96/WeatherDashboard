@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '../../client/dist')));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // TODO: Implement middleware to connect the routes
-app.use(routes);
+// app.use(routes);
 app.use(routes);
 app.use(htmlRoutes);
 // Start the server on the port
